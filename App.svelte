@@ -11,6 +11,6 @@
 
 <main>
 	<h1>Hello World!</h1>
-	<h2>Start editing to see some magic happen!</h2>
+	<h2>Click the button to count it up.</h2>
 	<Button />
 </main>
