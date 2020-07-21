@@ -1,5 +1,6 @@
 <script>
   import Card from "./components/Card.svelte";
+  import Header from "./components/Header.svelte";
   let title = "Movie";
 
   const films = [
@@ -24,6 +25,7 @@
 </style>
 
 <main>
+  <Header />
   {#each films as film}
 	  <Card {film}/>
   {/each}
