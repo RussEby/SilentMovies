@@ -1,5 +1,19 @@
 <script>
-	import Button from "./Button.svelte";
+  import Card from "./components/Card.svelte";
+  let title = "Movie";
+
+  const films = [
+    {
+      title: "Making A Living",
+      star: "Charlie Chaplin",
+      URL: "https://archive.org/embed/CC_1914_02_02_MakingALiving"
+    },
+    {
+      title: "The Rink",
+      star: "Charlie Chaplin",
+      URL: "https://archive.org/embed/CC_1916_12_04_TheRink"
+    }
+  ];
 </script>
 
 <style>
@@ -10,7 +24,7 @@
 </style>
 
 <main>
-	<h1>Hello World!</h1>
-	<h2>Click the button to count it up.</h2>
-	<Button />
+  {#each films as film}
+	  <Card {film}/>
+  {/each}
 </main>
