@@ -15,6 +15,11 @@ const FilmStore = writable([
     title: "Frankenstein",
     star: "Charles Ogle, Augustus Philips, Mary Fuller",
     URL: "https://archive.org/embed/FrankensteinfullMovie"
+  },
+  {
+    title: "Cinderella",
+    star: "Mary Pickford",
+    URL: "https://archive.org/embed/MaryPickfordCinderella"
   }
 ]);
 

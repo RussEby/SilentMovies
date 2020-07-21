@@ -24,6 +24,7 @@
     position: absolute;
     top: 0;
     background: rgba(0, 0, 0, 0.8);
+    z-index: 99;
   }
   .modal {
     padding: 10px;
