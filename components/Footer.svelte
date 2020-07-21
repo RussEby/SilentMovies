@@ -10,9 +10,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
-    color: #ddd;
+    background-color: var(--primary-BG-color);
+    color: var(--primary-text-color);
     height: 65px;
     font-size: 1.1em;
+    box-shadow: 0px 5px 3px #444 inset;
   }
 </style>

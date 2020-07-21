@@ -1,3 +1,13 @@
+:root {
+  --primary-BG-color: #6661ff;
+  --primary-text-color: #4ef5c9;
+  --highlight: #e6105c;
+  --secondary-color: #fc9905;
+  --secondary-text-color: #acf205;
+  --text-color: #222;
+  --background-color: #ddd;
+}
+
 body {
   margin: 0 0;
 }
