@@ -20,6 +20,36 @@ const FilmStore = writable([
     title: "Cinderella",
     star: "Mary Pickford",
     URL: "https://archive.org/embed/MaryPickfordCinderella"
+  },
+  {
+    title: "Alice In Wonderland",
+    star: "W W Young",
+    URL: "https://archive.org/embed/AliceInWonderland1915_503"
+  },
+  {
+    title: "The Night Before Christmas",
+    star: "Santa Claus",
+    URL: "https://archive.org/embed/TheNightBeforeChristmas_235"
+  },
+  {
+    title: "A Christmas Carol",
+    star: "Marc McDermott",
+    URL: "https://archive.org/embed/AChristmasCarol1910"
+  },
+  {
+    title: "The Count",
+    star: "Charlie Chaplin",
+    URL: "https://archive.org/embed/CC_1916_09_04_TheCount"
+  },
+  {
+    title: "The Haunted Castle",
+    star: "Georges Méliès",
+    URL: "https://archive.org/embed/The_Haunted_Castle_1896"
+  },
+  {
+    title: "The General",
+    star: "Buster Keaton, Clyde Bruckman",
+    URL: "https://archive.org/embed/TheGeneral"
   }
 ]);
 
